@@ -83,8 +83,8 @@ class Config(ConfigBase):
     # train
     continue_training = True
     epochs = 300
-    train_batch_size = 512
-    val_batch_size = 512
+    train_batch_size = 256
+    val_batch_size = 256
     weight_decay = 0.05
 
     # eval
